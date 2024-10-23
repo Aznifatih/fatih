@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Portfolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#home" class="navbar-brand">Azni Fatih Ramadhan</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="jumbotron text-center">
+        <img src="image/1.jpeg" class="img-circle img-animate" alt="Azni Fatih Ramadhan">
+        <h1 class="display-4">Azni Fatih Ramadhan</h1>
+        <p class="lead">Atlet | Web Developer</p>
+    </div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center section-title">About Me</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 col-sm-offset-1">
+                    <p>Hai, saya Azni Fatih Ramadhan! Selain menyukai pengembangan web, saya juga suka bermain sepak bola. Saya telah bermain sejak saya masih muda dan itu telah menjadi bagian penting dalam hidup saya. Sensasi kerja tim, strategi, dan kompetisi dalam sepak bola memberi saya energi untuk mengatasi tantangan baik dalam olahraga maupun karier saya sebagai pengembang web.</p>
+                </div>
+                <div class="col-sm-5">
+                    <p>Baik di lapangan maupun di belakang layar, saya selalu berusaha memberikan upaya terbaik saya. Sepak bola mengajarkan disiplin, kreativitas, dan ketekunan—kualitas yang saya bawa ke dalam proyek coding saya. Di waktu luang saya, Anda dapat menemukan saya bermain sepak bola dengan teman-teman, tetap aktif, dan terus mencari cara untuk meningkatkan diri baik secara fisik maupun mental.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-title">Portfolio</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail img-hover">
+                        <img src="image/2.jpeg" alt="Portfolio Image 1">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail img-hover">
+                        <img src="image/7.jpeg" alt="Portfolio Image 2">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail img-hover">
+                        <img src="image/4.jpeg" alt="Portfolio Image 3">
+                    </a>
+                </div>
+            </div>
+            <div class="row">   
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail img-hover">
+                        <img src="image/5.jpeg" alt="Portfolio Image 4">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail img-hover">
+                        <img src="image/3.jpeg" alt="Portfolio Image 5">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail img-hover">
+                        <img src="image/6.jpeg" alt="Portfolio Image 6">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-title">Contact</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Masukkan email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">No Telp</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Masukkan no telepon">
+                    </div>
+                    <div class="form-group">
+                        <label for="category">Kategori</label>
+                        <select class="form-control" id="category">
+                            <option>-- Pilih Kategori --</option>
+                            <option>Web Design</option>
+                            <option>Web Development</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea class="form-control" id="message" rows="10" placeholder="Masukkan pesan"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>&copy; copyright 2024 | by Ting <a href="https://instagram.com/azni_fatih">Azni Fatih Ramadhan</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>

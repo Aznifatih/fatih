@@ -1,0 +1,69 @@
+/* Custom CSS */
+.jumbotron {
+    background-color: #050505;
+    color: #343a40;
+    padding: 100px 25px;
+}
+
+.jumbotron img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Rounded image */
+}
+
+.jumbotron h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.portfolio .thumbnail {
+    border: none;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px; /* Space between thumbnails */
+}
+
+.portfolio .thumbnail img {
+    width: 100%; /* Make sure images are responsive */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.portfolio .thumbnail:hover img {
+    transform: scale(1.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.text-center {
+    animation: fadeInUp 1s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .portfolio .col-sm-4 {
+        margin-bottom: 15px;
+    }
+}
